@@ -23,20 +23,35 @@ Copy the .jar file from the ../target directory into the ../web-container/webapp
 **USAGE**
 
 *__jsonAddress__. jsonAddress/URL of MSS; sample value "https://mobileid.swisscom.com/rest/service"
+
 *__dtbs__. Message that gets displayed on the user's handset; sample value "Demo: Corporate Login:"; (will be extended with an unique string). 
+
 *__applicationProviderId__. Application Provider ID as provided by MSS; sample Value "mid://dev.swisscom.ch"
+
 *__applicationProviderPassword__. Application Provider's Password as provided by MSS
+
 *__userLoginAttribute__. IdRepo Attribute to identify the users' profile; sample value "uid"
+
 *__msisdnAttribute__. LDAP attribute in IdRepo that stores user's msisdn; sample value telefoneNumber (spaces will be stripped off)
+
 *__languageAttribute__. LDAP attribute in IdRepo that stores user's preferred language; sample value "en"; not existent or not supported value will cause fallback to "en"; supported values are "en","de","fr" and "it"
+
 *__trustStoreFile__. Path to java keystore file (in pkcs12 format) that contains MSS CA certifiactes; sample value "/usr/local/forgerock/openam/openam/my-truststore.p12"
+
 *__trustStorePassword__. Password for that java keystore file
+
 *__caSslAlias__. Alias of MSS CA certifiacte in the truststore presented during establishing the TLS connection; sample value "mobileid-ca-ssl"
+
 *__caSignAlias__. Alias of MSS CA certificate in the truststore used to sign the signature response; sample value "mobileid-ca-sign"
+
 *__keyStoreFile__. Path to java keystore file (in pkcs12 format) that contains the private key used while establishing the TLS channel; sample value "/usr/local/forgerock/openam/openam/my-keystore.p12"
+
 *__keyStorePassword__. Password for that keystore
+
 *__privateKeyAlias__. Alias of private key in java keystore; sample value "mobile.forgerock.ch"
+
 *__timeOut__. Time (in seconds) MSS waits for user's response; sample value "80"
+
 *__connectionTimeout__. Time (in seconds) to wait for MSS response; sample value "90"
 
 
