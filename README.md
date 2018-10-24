@@ -15,9 +15,6 @@
 -->
 # MobileIdAuthNode
 
-A simple authentication node for ForgeRock's [Identity Platform][forgerock_platform] 6.0 and above.
-This node... **SHORT DESCRIPTION HERE**
-
 An [swisscom mobile-connect](https://www.swisscom.ch/de/business/mobile-id/overview.html) authentication node for ForgeRock's [Identity Platform][forgerock_platform] 6.0 and above.
 
 This node takes an Username as input (eg via [Input Collector Node](https://github.com/ForgeRock/input-collector-auth-tree-node) and maps it to the user's login attribute (eg. uid) in the IdRepo. It expects the MSISDN of the user stored in the user's profile.
