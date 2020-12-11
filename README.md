@@ -44,11 +44,11 @@ Copy the .jar file from the ../target directory into the ../web-container/webapp
 
 The code in this repository has binary dependencies that live in the ForgeRock maven repository. Maven can be configured to authenticate to this repository by following the following [ForgeRock Knowledge Base Article](https://backstage.forgerock.com/knowledge/kb/article/a74096897).
 
-**SPECIFIC BUILD INSTRUCTIONS HERE**
-
-**SCREENSHOTS ARE GOOD LIKE BELOW**
+A sampe tree that makes use of this node could look like:
 
 ![ScreenShot](./example.png)
+
+This tree just gatheres the user's userId and start the MobileConnnect flowd.
 
 
 The sample code described herein is provided on an "as is" basis, without warranty of any kind, to the fullest extent permitted by law. ForgeRock does not warrant or guarantee the individual success developers may have in implementing the sample code on their development platforms or in production configurations.
